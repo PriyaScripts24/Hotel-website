@@ -16,7 +16,6 @@
                 <li><a href="#" class="hover:underline">Contact Us</a></li>
               </ul>
             </div>
-
             <div class="flex-1">
               <h3 class="mb-6 text-xl font-bold">Contact Info</h3>
               <ul class="space-y-6">
@@ -47,7 +46,6 @@
               </ul>
             </div>
           </div>
-
           <div class="py-12 bg-gray-50 -mt-[80px]">
             <div class="max-w-3xl mx-auto text-center w-[350px] h-[5px]">
               <h3 class="mb-2 text-sm text-gray-500 uppercase">
