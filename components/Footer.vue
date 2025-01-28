@@ -1,14 +1,14 @@
 <template>
   <div>
-    <section class="mt-[80px]">
+    <section class="mt-[40px] md:mt-[80px]">
       <footer class="py-12 text-white bg-black">
         <div
           class="flex flex-row items-center justify-around gap-20 px-4 mx-auto max-w-7xl md:flex-row"
         >
-          <div class="relative flex flex-row">
+          <div class="relative flex flex-row md:gap-3">
             <div class="flex-1">
-              <h3 class="mb-6 text-xl font-bold">Quick Links</h3>
-              <ul class="space-y-4">
+              <h3 class="mb-6 text-[16px] md:text-xl font-bold">Quick Links</h3>
+              <ul class="space-y-2 md:space-y-4">
                 <li><a href="#" class="hover:underline">Home</a></li>
                 <li><a href="#" class="hover:underline">About Us</a></li>
                 <li><a href="#" class="hover:underline">Our Properties</a></li>
@@ -19,35 +19,35 @@
             <div class="flex-1">
               <h3 class="mb-6 text-xl font-bold">Contact Info</h3>
               <ul class="space-y-6">
-                <li class="flex items-center gap-4">
+                <li class="flex items-center gap-2">
                   <img
                     src="/phone.png"
                     alt="Phone"
                     class="w-6 h-6 p-1 bg-white rounded-full"
                   />
-                  <p>(+30) 2241022871-2</p>
+                  <p class="text-[12px]">(+30) 2241022871-2</p>
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="flex items-center gap-2">
                   <img
                     src="/location.png"
                     alt="Address"
                     class="w-6 h-6 p-1 bg-white rounded-full"
                   />
-                  <p>25is Martiou 31-35, Rhodes 851 00</p>
+                  <p class="text-[12px]">25is Martiou 31-35, Rhodes 851 00</p>
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="flex items-center gap-2">
                   <img
                     src="/gmail.png"
                     alt="Email"
                     class="w-6 h-6 p-1 bg-white rounded-full"
                   />
-                  <p>info@lydiahotel.gr</p>
+                  <p class="text-[12px]">info@lydiahotel.gr</p>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="py-12 bg-gray-50 -mt-[170px] hidden md:block">
-            <div class="max-w-3xl mx-auto text-center w-[350px] h-[5px]">
+          <div class="py-4 bg-gray-50 -mt-[170px] hidden md:block">
+            <div class="w-full h-auto max-w-3xl mx-auto text-center">
               <h3 class="mb-2 text-sm text-gray-500 uppercase">
                 One of the best places to relax & enjoy
               </h3>
@@ -56,9 +56,7 @@
               </h1>
             </div>
 
-            <form
-              class="max-w-3xl p-8 mx-auto mt-8 bg-white rounded-lg shadow-md"
-            >
+            <form class="max-w-3xl p-8 mx-auto mt-8 bg-white rounded-lg">
               <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
                 <div>
                   <label
