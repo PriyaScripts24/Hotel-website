@@ -5,10 +5,18 @@
     <!-- section2... -->
     <section>
       <div class="relative">
-        <img src="/bg.png" alt="bg" />
+        <img class="w-screen h-screen md:h-auto" src="/bg.png" alt="bg" />
       </div>
+
       <div
-        class="flex items-center justify-around absolute w-full px-6 md:px-16 z-10 -mt-[900px]"
+        class="flex justify-between items-center px-2 md:hidden w-full absolute top-[50px]"
+      >
+        <img src="/logo.png" alt="logo" class="w-[150px] h-[50px]" />
+        <img src="/public/bar.svg" alt="" class="w-[40px]" />
+      </div>
+
+      <div
+        class="hidden md:flex md:items-center md:justify-around md:absolute md:w-full md:px-16 md:z-10 md:top-[70px]"
       >
         <img src="/logo.png" alt="logo" class="w-[160px] h-[60px]" />
         <div class="flex items-center gap-6 md:gap-16">
@@ -56,8 +64,9 @@
           </div>
         </div>
       </div>
+
       <div
-        class="absolute flex flex-col -mt-[600px] justify-center items-center ml-[650px]"
+        class="absolute inset-0 flex flex-col items-center justify-center pt-10"
       >
         <h4 class="mb-2 text-sm tracking-widest text-white uppercase">
           Indoors & Outdoors
@@ -76,7 +85,7 @@
         </button>
       </div>
       <div
-        class="absolute flex space-x-2 -bottom-0 ml-[820px] justify-center items-center"
+        class="absolute flex space-x-2 -bottom-0 inset-0 top-[400px] md:ml-[520px] justify-center items-center"
       >
         <span class="block w-3 h-3 bg-white rounded-full"></span>
         <span class="block w-3 h-3 bg-gray-400 rounded-full"></span>
@@ -86,18 +95,22 @@
 
     <!-- section3.. -->
     <section
-      class="py-12 absolute -mt-[205px] flex flex-col justify-center items-center ml-[390px]"
+      class="md:py-12 md:absolute md:-mt-[205px] flex flex-col justify-center items-center md:left-[250px]"
     >
-      <div class="max-w-4xl mx-auto text-center">
-        <form class="p-6 bg-[#F5F5F5] rounded-lg shadow-md w-[900px] mt-5">
+      <div class="text-center md:max-w-4xl md:mx-auto">
+        <form
+          class="p-6 bg-[#F5F5F5] rounded-lg shadow-md w-screen md:w-[900px] mt-5"
+        >
           <h3 class="mb-2 text-sm tracking-wide text-black uppercase">
             One of the Best Places to Relax & Enjoy
           </h3>
-          <h2 class="mb-8 text-3xl font-bold text-black">
+          <h2 class="mb-8 text-xl font-bold text-black md:text-3xl">
             Lydia City Hotel Rhodes
           </h2>
 
-          <div class="flex flex-row items-center justify-around gap-3">
+          <div
+            class="flex flex-col items-center justify-between gap-3 md:flex md:flex-row md:items-center md:justify-around"
+          >
             <div>
               <label
                 for="name"
@@ -152,7 +165,7 @@
           </div>
 
           <div
-            class="flex flex-row items-center justify-start w-full gap-3 mt-4 ml-[16px]"
+            class="flex flex-col justify-between items-center md:flex md:flex-row md:items-center md:justify-start md:w-full gap-3 md:mt-4 md:ml-[16px]"
           >
             <div>
               <label
@@ -215,7 +228,7 @@
           </div>
           <button
             type="submit"
-            class="-ml-[700px] px-8 py-2 text-white bg-black rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="md:-ml-[700px] px-8 py-2 text-white bg-black rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Send
           </button>
@@ -225,16 +238,20 @@
 
     <!-- section4.. -->
     <section class="py-12 bg-white mt-[253px]">
-      <div class="flex items-center justify-around gap-4">
-        <div class="flex flex-col">
+      <div
+        class="flex flex-col items-center justify-between gap-4 md:flex md:items-center md:justify-around"
+      >
+        <div
+          class="flex flex-col items-center justify-between px-4 md:flex md:flex-col"
+        >
           <h3 class="text-[#515151] text-[24px] font-[300px]">
             About Lydia Hotel
           </h3>
-          <h2 class="font-[400px] text-[48px] mt-4">
+          <h2 class="font-[400px] text-[32px] md:text-[48px] mt-4 px-12">
             Enjoy A Luxury Experience
           </h2>
           <p
-            class="w-[634px] h-[380px] text-[#535353] font-[300px] text-[20px] mt-4"
+            class="w-screen px-4 md:w-[634px] md:h-[380px] text-[#535353] font-[300px] text-[20px] mt-4"
           >
             Lorem ipsum dolor sit amet consectetur. Pretium gravida non integer
             magna. Nibh facilisi eget justo tristique. Nunc purus vehicula
@@ -249,7 +266,11 @@
           </p>
         </div>
         <div>
-          <img src="/about.png" alt="room" class="w-[550px] h-[500px]" />
+          <img
+            src="/about.png"
+            alt="room"
+            class="w-[300px] md:w-[550px] md:h-[500px]"
+          />
         </div>
       </div>
     </section>
@@ -388,13 +409,13 @@
           <h2 class="text-[42px] font-bold text-gray-800">Our Gallery</h2>
         </div>
 
-        <div class="flex flex-row items-center justify-center gap-4">
-          <div class="flex flex-col gap-4">
+        <div class="flex flex-row items-center justify-center gap-1 md:gap-4">
+          <div class="flex flex-col gap-1 md:gap-4">
             <div class="overflow-hidden rounded-lg shadow">
               <img
                 src="/cart1.png"
                 alt="Gallery Image 1"
-                class="object-cover w-full h-[600px]"
+                class="object-cover md:w-full md:h-auto"
               />
             </div>
 
@@ -407,7 +428,7 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-1 md:gap-4">
             <div class="overflow-hidden rounded-lg shadow">
               <img
                 src="/cart2.png"
@@ -433,7 +454,7 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-1 md:gap-4">
             <div class="overflow-hidden rounded-lg shadow">
               <img
                 src="/cart3.png"
@@ -450,6 +471,136 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- section8 -->
+    <section>
+      <div class="py-12 bg-gray-50 md:hidden">
+        <div class="max-w-3xl text-center w-[350px] h-[5px]">
+          <h3 class="mb-2 text-sm text-gray-500 uppercase">
+            One of the best places to relax & enjoy
+          </h3>
+          <h1 class="text-xl font-bold text-gray-800">
+            Lydia City Hotel Rhodes
+          </h1>
+        </div>
+
+        <form class="max-w-3xl p-8 mt-10 bg-white rounded-lg shadow-md">
+          <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700"
+                >Your Name:</label
+              >
+              <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700"
+                >Email:</label
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email ID"
+                class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <div>
+              <label
+                for="check-in"
+                class="block text-sm font-medium text-gray-700"
+                >Check In:</label
+              >
+              <input
+                type="date"
+                id="check-in"
+                class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label
+                for="check-out"
+                class="block text-sm font-medium text-gray-700"
+                >Check Out:</label
+              >
+              <input
+                type="date"
+                id="check-out"
+                class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <div>
+              <label for="rooms" class="block text-sm font-medium text-gray-700"
+                >Rooms:</label
+              >
+              <select
+                id="rooms"
+                class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option class="text-black">Select</option>
+                <option class="text-black">1</option>
+                <option class="text-black">2</option>
+                <option class="text-black">3</option>
+              </select>
+            </div>
+            <div>
+              <label
+                for="children"
+                class="block text-sm font-medium text-gray-700"
+                >Children:</label
+              >
+              <select
+                id="children"
+                class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option class="text-black">Select</option>
+                <option class="text-black">0</option>
+                <option class="text-black">1</option>
+                <option class="text-black">2</option>
+              </select>
+            </div>
+            <div>
+              <label
+                for="adults"
+                class="block text-sm font-medium text-gray-700"
+                >Adult:</label
+              >
+              <select
+                id="adults"
+                class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option class="text-black">Select</option>
+                <option class="text-black">1</option>
+                <option class="text-black">2</option>
+                <option class="text-black">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-6">
+            <input
+              type="checkbox"
+              id="terms"
+              class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+            />
+            <label for="terms" class="ml-2 text-sm text-gray-700"
+              >I have read and agree with the terms</label
+            >
+          </div>
+          <button
+            type="submit"
+            class="w-full py-2 mt-6 text-white transition bg-black rounded-md hover:bg-gray-800"
+          >
+            Send
+          </button>
+        </form>
       </div>
     </section>
 

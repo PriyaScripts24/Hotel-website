@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section class="mt-[80px]">
       <footer class="py-12 text-white bg-black">
         <div
           class="flex flex-row items-center justify-around gap-20 px-4 mx-auto max-w-7xl md:flex-row"
@@ -46,7 +46,7 @@
               </ul>
             </div>
           </div>
-          <div class="py-12 bg-gray-50 -mt-[80px]">
+          <div class="py-12 bg-gray-50 -mt-[170px] hidden md:block">
             <div class="max-w-3xl mx-auto text-center w-[350px] h-[5px]">
               <h3 class="mb-2 text-sm text-gray-500 uppercase">
                 One of the best places to relax & enjoy
@@ -96,7 +96,7 @@
                   <input
                     type="date"
                     id="check-in"
-                    class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+                    class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div>
@@ -108,7 +108,7 @@
                   <input
                     type="date"
                     id="check-out"
-                    class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+                    class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
 
@@ -120,12 +120,12 @@
                   >
                   <select
                     id="rooms"
-                    class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+                    class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    <option>Select</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
+                    <option class="text-black">Select</option>
+                    <option class="text-black">1</option>
+                    <option class="text-black">2</option>
+                    <option class="text-black">3</option>
                   </select>
                 </div>
                 <div>
@@ -136,12 +136,12 @@
                   >
                   <select
                     id="children"
-                    class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+                    class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    <option>Select</option>
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
+                    <option class="text-black">Select</option>
+                    <option class="text-black">0</option>
+                    <option class="text-black">1</option>
+                    <option class="text-black">2</option>
                   </select>
                 </div>
                 <div>
@@ -152,12 +152,12 @@
                   >
                   <select
                     id="adults"
-                    class="w-full px-4 py-2 mt-1 border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
+                    class="w-full px-4 py-2 mt-1 text-black border rounded-md outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    <option>Select</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
+                    <option class="text-black">Select</option>
+                    <option class="text-black">1</option>
+                    <option class="text-black">2</option>
+                    <option class="text-black">3</option>
                   </select>
                 </div>
               </div>
