@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <!-- section1.. -->
     <Header />
     <!-- section2... -->
