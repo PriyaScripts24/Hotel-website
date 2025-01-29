@@ -5,7 +5,7 @@
     <!-- section2... -->
     <section>
       <div class="relative">
-        <img class="w-screen h-screen" src="/bg.png" alt="bg" />
+        <img class="w-full h-screen" src="/bg.png" alt="bg" />
       </div>
 
       <div
