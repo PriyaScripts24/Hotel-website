@@ -4,7 +4,7 @@
     <Header />
     <!-- section2... -->
     <section class="overflow-hidden">
-      <div class="relative">
+      <div class="">
         <img class="w-full h-screen" src="/bg.png" alt="bg" />
       </div>
 
@@ -224,150 +224,152 @@
     </section>
 
     <!-- section3.. for lg-->
-    <section class="absolute lg:block hidden -mt-[270px] px-[390px]">
-      <div class="flex flex-col items-center justify-center">
-        <div class="text-center md:max-w-4xl md:mx-auto">
-          <form
-            class="p-6 bg-[#F5F5F5] rounded-lg shadow-md w-screen md:w-[900px] mt-5"
-          >
-            <h3 class="mb-2 text-sm tracking-wide text-black uppercase">
-              One of the Best Places to Relax & Enjoy
-            </h3>
-            <h2 class="mb-8 text-xl font-bold text-black md:text-3xl">
-              Lydia City Hotel Rhodes
-            </h2>
-
-            <div
-              class="flex flex-col items-center justify-between gap-3 md:flex md:flex-row md:items-center md:justify-around"
+    <div class="flex justify-center">
+      <div class="hidden lg:block -mt-[170px]">
+        <div class="flex flex-col items-center justify-center">
+          <div class="text-center md:max-w-4xl md:mx-auto">
+            <form
+              class="p-6 bg-[#F5F5F5] rounded-lg shadow-md w-screen md:w-[900px] mt-5"
             >
-              <div>
-                <label
-                  for="name"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Your Name:</label
-                >
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Your Name"
-                  class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <div>
-                <label
-                  for="email"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Email:</label
-                >
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Your Email ID"
-                  class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
+              <h3 class="mb-2 text-sm tracking-wide text-black uppercase">
+                One of the Best Places to Relax & Enjoy
+              </h3>
+              <h2 class="mb-8 text-xl font-bold text-black md:text-3xl">
+                Lydia City Hotel Rhodes
+              </h2>
 
-              <div>
-                <label
-                  for="checkin"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Check In:</label
-                >
-                <input
-                  type="date"
-                  id="checkin"
-                  class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <div>
-                <label
-                  for="checkout"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Check Out:</label
-                >
-                <input
-                  type="date"
-                  id="checkout"
-                  class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-            </div>
-
-            <div
-              class="flex flex-col justify-between items-center md:flex md:flex-row md:items-center md:justify-start md:w-full gap-3 md:mt-4 md:ml-[16px]"
-            >
-              <div>
-                <label
-                  for="rooms"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Rooms:</label
-                >
-                <select
-                  id="rooms"
-                  class="p-2 border rounded-md px-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option>Select</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
-              </div>
-              <div>
-                <label
-                  for="adults"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Adults:</label
-                >
-                <select
-                  id="adults"
-                  class="p-2 border rounded-md px-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option>Select</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
-              </div>
-              <div>
-                <label
-                  for="children"
-                  class="block mb-1 text-sm font-medium text-gray-700"
-                  >Children:</label
-                >
-                <select
-                  id="children"
-                  class="p-2 border rounded-md px-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option>Select</option>
-                  <option>0</option>
-                  <option>1</option>
-                  <option>2</option>
-                </select>
-              </div>
-            </div>
-            <div class="flex items-center mt-4 mb-4 ml-[16px]">
-              <input
-                type="checkbox"
-                id="terms"
-                class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
-              />
-              <label for="terms" class="ml-2 text-sm text-gray-600"
-                >I have read and agree with the terms</label
+              <div
+                class="flex flex-col items-center justify-between gap-3 md:flex md:flex-row md:items-center md:justify-around"
               >
-            </div>
-            <button
-              type="submit"
-              class="md:-ml-[700px] px-8 py-2 text-white bg-black rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Send
-            </button>
-          </form>
+                <div>
+                  <label
+                    for="name"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Your Name:</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="email"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Email:</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email ID"
+                    class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    for="checkin"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Check In:</label
+                  >
+                  <input
+                    type="date"
+                    id="checkin"
+                    class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="checkout"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Check Out:</label
+                  >
+                  <input
+                    type="date"
+                    id="checkout"
+                    class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col justify-between items-center md:flex md:flex-row md:items-center md:justify-start md:w-full gap-3 md:mt-4 md:ml-[16px]"
+              >
+                <div>
+                  <label
+                    for="rooms"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Rooms:</label
+                  >
+                  <select
+                    id="rooms"
+                    class="p-2 border rounded-md px-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option>Select</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div>
+                  <label
+                    for="adults"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Adults:</label
+                  >
+                  <select
+                    id="adults"
+                    class="p-2 border rounded-md px-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option>Select</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div>
+                  <label
+                    for="children"
+                    class="block mb-1 text-sm font-medium text-gray-700"
+                    >Children:</label
+                  >
+                  <select
+                    id="children"
+                    class="p-2 border rounded-md px-14 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option>Select</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="flex items-center mt-4 mb-4 ml-[16px]">
+                <input
+                  type="checkbox"
+                  id="terms"
+                  class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                />
+                <label for="terms" class="ml-2 text-sm text-gray-600"
+                  >I have read and agree with the terms</label
+                >
+              </div>
+              <button
+                type="submit"
+                class="md:-ml-[700px] px-8 py-2 text-white bg-black rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                Send
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- section4.. -->
-    <section class="py-12 mt-6 bg-white lg:mt-[150px]">
+    <section class="py-12 mt-6 bg-white ld:mt-[90px]">
       <div
         class="flex flex-col items-center justify-between gap-4 lg:flex lg:items-center lg:justify-around lg:flex-row"
       >
@@ -383,7 +385,7 @@
             Enjoy A Luxury Experience
           </h2>
           <p
-            class="w-screen px-4 md:w-[634px] md:h-[380px] text-[#535353] md:font-[300px] lg:text-[20px] text-[14px] mt-4"
+            class="w-full px-4 md:w-[634px] md:h-[380px] text-[#535353] md:font-[300px] lg:text-[20px] text-[14px] mt-4"
           >
             Lorem ipsum dolor sit amet consectetur. Pretium gravida non integer
             magna. Nibh facilisi eget justo tristique. Nunc purus vehicula
