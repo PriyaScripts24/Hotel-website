@@ -224,9 +224,7 @@
     </section>
 
     <!-- section3.. for lg-->
-    <section
-      class="hidden lg:block -mt-[80px] z-9999999999999 absolute inset-0 top-[460px]"
-    >
+    <section class="absolute lg:block hidden -mt-[270px] px-[390px]">
       <div class="flex flex-col items-center justify-center">
         <div class="text-center md:max-w-4xl md:mx-auto">
           <form
@@ -369,9 +367,9 @@
     </section>
 
     <!-- section4.. -->
-    <section class="py-12 mt-6 bg-white lg:mt-[300px]">
+    <section class="py-12 mt-6 bg-white lg:mt-[150px]">
       <div
-        class="flex flex-col items-center justify-between gap-4 md:flex md:items-center md:justify-around"
+        class="flex flex-col items-center justify-between gap-4 lg:flex lg:items-center lg:justify-around lg:flex-row"
       >
         <div
           class="flex flex-col items-center justify-between md:px-4 md:flex md:flex-col"
@@ -385,7 +383,7 @@
             Enjoy A Luxury Experience
           </h2>
           <p
-            class="w-screen px-4 md:w-[634px] md:h-[380px] text-[#535353] md:font-[300px] text-[20px] mt-4"
+            class="w-screen px-4 md:w-[634px] md:h-[380px] text-[#535353] md:font-[300px] lg:text-[20px] text-[14px] mt-4"
           >
             Lorem ipsum dolor sit amet consectetur. Pretium gravida non integer
             magna. Nibh facilisi eget justo tristique. Nunc purus vehicula
