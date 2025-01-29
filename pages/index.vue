@@ -1,9 +1,9 @@
 <template>
-  <div class="overflow-hidden">
+  <div class="">
     <!-- section1.. -->
     <Header />
     <!-- section2... -->
-    <section>
+    <section class="overflow-hidden">
       <div class="relative">
         <img class="w-full h-screen" src="/bg.png" alt="bg" />
       </div>
